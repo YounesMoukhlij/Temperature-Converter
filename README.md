@@ -20,7 +20,7 @@ A beautiful and interactive temperature converter web application that allows us
 
 ## 📱 Screenshot
 
-[Main Interface](./assets/screenshot1.png)
+<img src="./assets/screenshot1.png" alt="ScreenShot" width="500">
 
 ## 🎯 How to Use
 
