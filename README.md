@@ -11,10 +11,6 @@ A beautiful and interactive temperature converter web application that allows us
 - **Interactive Elements**: Hover effects and animated transitions
 - **Error Handling**: User-friendly error messages with slide animations
 
-## 🚀 Demo
-
-![Temperature Converter Demo](./assets/demo.gif)
-
 ## 🛠️ Technologies Used
 
 - **HTML5**: Semantic markup and structure
@@ -24,7 +20,7 @@ A beautiful and interactive temperature converter web application that allows us
 
 ## 📱 Screenshot
 
-![Main Interface](./assets/screenshot1.png)
+[Main Interface](./assets/screenshot1.png)
 
 ## 🎯 How to Use
 
