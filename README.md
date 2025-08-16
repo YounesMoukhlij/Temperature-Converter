@@ -22,11 +22,9 @@ A beautiful and interactive temperature converter web application that allows us
 - **JavaScript (ES6+)**: DOM manipulation, event handling, and calculations
 - **Google Fonts**: Poppins font family for modern typography
 
-## 📱 Screenshots
+## 📱 Screenshot
 
-| Main Interface | Error Handling |
-|---|---|
-| ![Main Interface](./assets/screenshot1.png) | ![Error Message](./assets/screenshot2.png) |
+![Main Interface](./assets/screenshot1.png)
 
 ## 🎯 How to Use
 
