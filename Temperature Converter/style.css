@@ -44,7 +44,7 @@ body::before
     color: white;
     width: 200px;
     height: 100px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     top: 2%;

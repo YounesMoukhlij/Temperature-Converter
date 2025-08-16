@@ -71,17 +71,27 @@ submt.addEventListener('click', () =>
         }
         res.textContent = result.toString()
     }
-    catch (e)
-    {
-        console.log(e)
-        document.getElementById('cardP').textContent = e.message
-        document.querySelector('.card').classList.add('show')
-        setTimeout(() =>
-        {
-            document.querySelector('.card').classList.remove('show')
-        }, 2000)
-        temperature.value = ''
-    }
+            catch (e) {
+            console.log(e)
+            document.getElementById('cardP').textContent = e.message
+
+            const card = document.querySelector('.card')
+            card.style.display = 'flex'
+            card.style.transform = 'translateX(250px)' 
+
+            setTimeout(() => {
+                card.style.transform = 'translateX(0)'
+            }, 10)
+
+            setTimeout(() => {
+                card.style.transform = 'translateX(250px)'
+                setTimeout(() => {
+                    card.style.display = 'none'
+                }, 500)
+            }, 2000)
+
+            temperature.value = ''
+        }
 })
 
 
