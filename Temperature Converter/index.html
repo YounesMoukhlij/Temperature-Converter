@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="card">
+        <p id="cardP">error</p>
+    </div>
+    <div class="container">
+        <div class="description">
+            <h1>Temperature Converter</h1>
+            <p>Enter the temperature, select units and submit.</p>
+        </div>
+        <div class="content">
+
+            <div class="grp">
+                <!-- <label for="temperature">Enter Temperature</label> -->
+                <input type="text" name="" id="temperature" placeholder="0.0">
+            </div>
+
+                <select name="Temp" id="fromUnit">
+                    <option value="" disabled selected>From Unit</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Celseus">Celseus</option>
+                    <option value="Kelvin">Kelvin</option>
+                </select>
+
+
+                <select name="Temp" id="toUnit">
+                    <option value="" disabled selected>To Unit</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Celseus">Celseus</option>
+                    <option value="Kelvin">Kelvin</option>
+                </select>
+
+            <div class="submit">
+                <button id="mainButton" disabled>
+                    <h3>Convert</h3>
+                </button>
+            </div>
+        </div>
+        <div class="res">
+            <p id="result">0.0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
