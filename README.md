@@ -19,8 +19,11 @@ A beautiful and interactive temperature converter web application that allows us
 - **Google Fonts**: Poppins font family for modern typography
 
 ## 📱 Screenshot
+ <div align="center">
 
 <img src="./Temperature Converter/assets/screenshot1.png" alt="ScreenShot" width="500">
+
+</div>
 
 ## 🎯 How to Use
 
