@@ -39,7 +39,7 @@ body::before
 
 .card
 {
-    position: absolute;
+    position: fixed;
     border: 3px solid white;
     color: white;
     width: 200px;
@@ -57,6 +57,7 @@ body::before
     backdrop-filter: blur(10px);
     border-radius: 10px;
     font-weight: 600;
+    z-index: 1000;
 }
 
 .card.show {
@@ -183,4 +184,69 @@ button:not(:disabled):hover {
     border: 1px solid white;
 }
 
+@media screen and (max-width: 353px)
+{
+    body
+    {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+    }
 
+    .description
+    {
+        h1
+        {
+            font-size: x-large;
+            font-weight: 600;
+        }
+    }
+
+    .card
+    {
+        width: 140px;
+        height: 70px;
+        top: 5px;
+        right: 5px;
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width: 956px)
+{
+    body
+    {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+    }
+
+    .container
+    {
+        width: 70%;
+        height: 500px;
+    }
+
+    .content
+    {
+        flex-direction: column;
+        gap: 10px;
+        height: 200px;
+    }
+
+    .card
+    {
+        width: 160px;
+        height: 80px;
+        top: 15px;
+        right: 15px;
+        font-size: 0.9rem;
+    }
+}
